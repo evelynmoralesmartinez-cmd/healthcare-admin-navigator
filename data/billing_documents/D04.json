@@ -1,0 +1,17 @@
+{
+  "doc_id": "D04",
+  "member_id": "M-1002",
+  "type": "EOB",
+  "provider": "LabNord Diagnostics",
+  "service": "Laboratory panel",
+  "service_date": "2026-08-22",
+  "billing_code": "NHC-3310",
+  "claim_number": "CL-70104",
+  "billed": 81.0,
+  "allowed": 60.0,
+  "deductible_applied": 60.0,
+  "patient_owes": 60.0,
+  "network_status": "in-network",
+  "plan_paid": 0.0,
+  "text": "EXPLANATION OF BENEFITS (this is not a bill)\nNordlicht Health | Claim CL-70104\nMember: Daniel Okoro, born 1979-11-03, Member ID M-1002\nAddress: Marktweg 3, 22761 Hamburg\n\nProvider: LabNord Diagnostics (in-network)\nService date: 2026-08-22\nService: Laboratory panel (NHC-3310)\nAmount billed: EUR 81.00\nAllowed amount: EUR 60.00\nApplied to deductible: EUR 60.00\nPlan paid: EUR 0.00\nYou may owe the provider: EUR 60.00"
+}

@@ -1,0 +1,17 @@
+{
+  "doc_id": "D11",
+  "member_id": "M-1004",
+  "type": "Provider invoice",
+  "provider": "Physio Mitte",
+  "service": "Physiotherapy session",
+  "service_date": "2026-08-26",
+  "billing_code": "NHC-5120",
+  "claim_number": "INV-88211",
+  "billed": 94.5,
+  "allowed": null,
+  "deductible_applied": null,
+  "patient_owes": null,
+  "network_status": null,
+  "plan_paid": null,
+  "text": "INVOICE INV-88211\nPhysio Mitte\nPatient: Henrik Voss, born 1965-02-18\nAddress: Birkenallee 7, 21029 Hamburg\nMember ID: M-1004\n\nService date: 2026-08-26\nService: Physiotherapy session (NHC-5120)\nAmount due: EUR 94.50\nPlease pay within 14 days. Insurance claims are submitted by the practice."
+}

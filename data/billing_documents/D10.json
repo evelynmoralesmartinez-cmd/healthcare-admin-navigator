@@ -1,0 +1,17 @@
+{
+  "doc_id": "D10",
+  "member_id": "M-1004",
+  "type": "Provider invoice",
+  "provider": "Nordstadt Radiology",
+  "service": "MRI scan",
+  "service_date": "2026-08-19",
+  "billing_code": "NHC-4412",
+  "claim_number": "INV-88210",
+  "billed": 648.0,
+  "allowed": null,
+  "deductible_applied": null,
+  "patient_owes": null,
+  "network_status": null,
+  "plan_paid": null,
+  "text": "INVOICE INV-88210\nNordstadt Radiology\nPatient: Henrik Voss, born 1965-02-18\nAddress: Birkenallee 7, 21029 Hamburg\nMember ID: M-1004\n\nService date: 2026-08-19\nService: MRI scan (NHC-4412)\nAmount due: EUR 648.00\nPlease pay within 14 days. Insurance claims are submitted by the practice."
+}

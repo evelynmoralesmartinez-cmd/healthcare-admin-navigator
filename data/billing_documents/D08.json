@@ -1,0 +1,17 @@
+{
+  "doc_id": "D08",
+  "member_id": "M-1003",
+  "type": "EOB",
+  "provider": "Dr. Anna Berger",
+  "service": "GP consultation",
+  "service_date": "2026-09-09",
+  "billing_code": "NHC-1001",
+  "claim_number": "CL-70108",
+  "billed": 108.0,
+  "allowed": 80.0,
+  "deductible_applied": 0.0,
+  "patient_owes": 0.0,
+  "network_status": "in-network",
+  "plan_paid": 80.0,
+  "text": "EXPLANATION OF BENEFITS (this is not a bill)\nNordlicht Health | Claim CL-70108\nMember: Sofia Marin, born 1992-07-25, Member ID M-1003\nAddress: Elbchaussee 88, 22605 Hamburg\n\nProvider: Dr. Anna Berger (in-network)\nService date: 2026-09-09\nService: GP consultation (NHC-1001)\nAmount billed: EUR 108.00\nAllowed amount: EUR 80.00\nApplied to deductible: EUR 0.00\nPlan paid: EUR 80.00\nYou may owe the provider: EUR 0.00"
+}

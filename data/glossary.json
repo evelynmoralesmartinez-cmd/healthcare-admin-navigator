@@ -1,0 +1,162 @@
+[
+  {
+    "term": "Premium",
+    "plain_language_definition": "The amount you pay every month to keep your plan active."
+  },
+  {
+    "term": "Deductible",
+    "plain_language_definition": "The amount you pay each calendar year for covered services before the plan starts to share the cost. Copays do not count toward the deductible."
+  },
+  {
+    "term": "Copay",
+    "plain_language_definition": "A fixed amount you pay for a covered service, such as a doctor visit."
+  },
+  {
+    "term": "Coinsurance",
+    "plain_language_definition": "The percentage of the allowed amount you pay after the deductible has been met."
+  },
+  {
+    "term": "Out-of-pocket maximum",
+    "plain_language_definition": "The most you pay in a calendar year for covered services. Premiums do not count. After you reach it, the plan pays 100 percent of covered in-network services."
+  },
+  {
+    "term": "In-network provider",
+    "plain_language_definition": "A provider that has a contract with Nordlicht Health and accepts the allowed amount as full payment."
+  },
+  {
+    "term": "Out-of-network provider",
+    "plain_language_definition": "A provider without a contract. You pay a higher coinsurance and may be billed the difference."
+  },
+  {
+    "term": "Prior authorization",
+    "plain_language_definition": "Approval from Nordlicht Health that is needed before certain services so that they are covered."
+  },
+  {
+    "term": "Referral",
+    "plain_language_definition": "A written recommendation from your GP to see a specialist or start a therapy."
+  },
+  {
+    "term": "Explanation of Benefits (EOB)",
+    "plain_language_definition": "A statement that shows what a provider billed, what the plan allowed, what the plan paid and what you owe. It is not a bill."
+  },
+  {
+    "term": "Claim",
+    "plain_language_definition": "A request for payment that a provider or member sends to the plan."
+  },
+  {
+    "term": "Denial",
+    "plain_language_definition": "A decision that a claim or service is not covered, with the reason."
+  },
+  {
+    "term": "Appeal",
+    "plain_language_definition": "A request to review a denial."
+  },
+  {
+    "term": "Formulary",
+    "plain_language_definition": "The list of drugs the plan covers."
+  },
+  {
+    "term": "Generic drug",
+    "plain_language_definition": "A drug with the same active ingredient as a brand-name drug, usually at a lower price."
+  },
+  {
+    "term": "Brand-name drug",
+    "plain_language_definition": "A drug sold under a manufacturer's trade name."
+  },
+  {
+    "term": "Preventive care",
+    "plain_language_definition": "Check-ups, screenings and vaccinations that aim to prevent illness."
+  },
+  {
+    "term": "Emergency care",
+    "plain_language_definition": "Care for a sudden condition that a reasonable person would believe needs immediate treatment."
+  },
+  {
+    "term": "Urgent care",
+    "plain_language_definition": "Care for a condition that needs attention soon but is not life-threatening."
+  },
+  {
+    "term": "Inpatient",
+    "plain_language_definition": "Care that requires staying in a hospital overnight or longer."
+  },
+  {
+    "term": "Outpatient",
+    "plain_language_definition": "Care that does not require an overnight hospital stay."
+  },
+  {
+    "term": "Waiting period",
+    "plain_language_definition": "A period after enrollment during which a benefit is not yet covered."
+  },
+  {
+    "term": "Exclusion",
+    "plain_language_definition": "A service or situation the plan does not cover."
+  },
+  {
+    "term": "Pre-existing condition",
+    "plain_language_definition": "A health condition that existed before your coverage began."
+  },
+  {
+    "term": "Calendar year",
+    "plain_language_definition": "1 January to 31 December."
+  },
+  {
+    "term": "Allowed amount",
+    "plain_language_definition": "The maximum amount the plan recognises for a covered service."
+  },
+  {
+    "term": "Balance billing",
+    "plain_language_definition": "When an out-of-network provider bills you for the difference between its charge and the allowed amount."
+  },
+  {
+    "term": "Billed amount",
+    "plain_language_definition": "The amount a provider charges before any plan adjustment."
+  },
+  {
+    "term": "Covered service",
+    "plain_language_definition": "A service that the plan pays for under its terms."
+  },
+  {
+    "term": "Network",
+    "plain_language_definition": "The group of providers contracted by the plan."
+  },
+  {
+    "term": "General practitioner (GP)",
+    "plain_language_definition": "Your first point of contact for non-emergency care."
+  },
+  {
+    "term": "Specialist",
+    "plain_language_definition": "A doctor focused on a specific area such as cardiology or dermatology."
+  },
+  {
+    "term": "Diagnostic test",
+    "plain_language_definition": "A test such as imaging or lab work used to find the cause of symptoms."
+  },
+  {
+    "term": "Dependent",
+    "plain_language_definition": "A family member covered under your plan."
+  },
+  {
+    "term": "Open enrollment",
+    "plain_language_definition": "The yearly period when you can join or change plans."
+  },
+  {
+    "term": "Grace period",
+    "plain_language_definition": "A period after a missed premium payment during which coverage continues."
+  },
+  {
+    "term": "Coordination of benefits",
+    "plain_language_definition": "The rules used when more than one plan covers the same person."
+  },
+  {
+    "term": "Medical necessity",
+    "plain_language_definition": "Care that is needed to diagnose or treat a condition and meets accepted standards."
+  },
+  {
+    "term": "Member ID",
+    "plain_language_definition": "The number that identifies you to the plan."
+  },
+  {
+    "term": "Statement of benefits",
+    "plain_language_definition": "A yearly overview of your claims and payments."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "provider_id": "PR-01",
+    "name": "Dr. Anna Berger",
+    "specialty": "General practice",
+    "in_network_plans": [
+      "NB-BASIC",
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  },
+  {
+    "provider_id": "PR-02",
+    "name": "Praxis Elbe Orthopaedics",
+    "specialty": "Orthopaedics",
+    "in_network_plans": [
+      "NB-BASIC",
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  },
+  {
+    "provider_id": "PR-03",
+    "name": "Nordstadt Radiology",
+    "specialty": "Imaging",
+    "in_network_plans": [
+      "NB-BASIC",
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  },
+  {
+    "provider_id": "PR-04",
+    "name": "City Hospital Lindenhof",
+    "specialty": "Hospital and emergency",
+    "in_network_plans": [
+      "NB-BASIC",
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  },
+  {
+    "provider_id": "PR-05",
+    "name": "Dr. Karim Haddad",
+    "specialty": "Cardiology",
+    "in_network_plans": [
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  },
+  {
+    "provider_id": "PR-06",
+    "name": "Physio Mitte",
+    "specialty": "Physiotherapy",
+    "in_network_plans": [
+      "NB-BASIC",
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  },
+  {
+    "provider_id": "PR-07",
+    "name": "Dr. Mei Tan",
+    "specialty": "Dermatology",
+    "in_network_plans": [
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  },
+  {
+    "provider_id": "PR-08",
+    "name": "LabNord Diagnostics",
+    "specialty": "Laboratory",
+    "in_network_plans": [
+      "NB-BASIC",
+      "NP-PLUS",
+      "NX-PREMIUM"
+    ]
+  }
+]

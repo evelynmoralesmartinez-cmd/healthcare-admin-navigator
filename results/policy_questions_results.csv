@@ -1,0 +1,62 @@
+question_id,member_id,question,expected_answer,assistant_answer,guard_label,expected_section,retrieved_sections,cited_sections,section_retrieved,section_cited,answer_correct,judge_reason,human_review
+PQ01,M-1001,What is my copay for a specialist visit?,EUR 60,Your plan’s specialist visit copay is **€60** per visit. The copay is a fixed amount you pay at the time of service and does **not** count toward your deductible. [​S4.2],answer,S4.2,"['S4.2', 'S4.4', 'S3.1', 'S4.9', 'S4.1', 'S1', 'S3.2']",['S4.2'],True,True,True,Matches the expected copay amount of EUR 60,True
+PQ02,M-1002,What is my copay for a GP visit?,EUR 15,Your copay for a General‑Practice (GP) visit is **EUR 15**[S4.2]. This also applies to telephone consultations with your GP.,answer,S4.2,"['S4.2', 'S4.1', 'S4.4', 'S3.1', 'S1', 'S3.2']",['S4.2'],True,True,True,matches expected amount,True
+PQ03,M-1003,"How many physiotherapy sessions are covered per year, and what do I need?",20 sessions per calendar year with a written referral,"- **Covered amount:** Up to **20 physiotherapy sessions per calendar year** [S4.7].  
+- **What you need:**  
+  • A **written referral from a physician** for each condition you’re treating [S4.7].  
+  • The referral must be for the specific condition; a new referral is required for any new condition [S4.7].  
+- **Cost sharing:** Sessions are first applied to your deductible (already met) and then you pay the **coinsurance** (10 % of the allowed amount) [S4.7].  
+
+*Note:* Any physiotherapy without a written referral or beyond the 20‑session limit is not covered [S7].",answer,S4.7,"['S4.7', 'S7', 'S4.8', 'S4.3', 'S4.2', 'S4.1', 'S1', 'S3.2']","['S4.7', 'S4.7', 'S4.7', 'S4.7', 'S7']",True,True,True,Matches key facts,True
+PQ04,M-1001,Does an MRI need prior authorization on my plan?,Yes,"Yes—MRI scans require prior authorization on your NB‑BASIC plan. You (or your provider) must request approval at least 5 business days before the scan, and the approval is valid for 90 days. Without it, the claim may be denied and you could be billed the full cost. [S5]  
+
+*Ask your provider to submit the request early to avoid delays.*  
+
+*If you’re unsure whether a prior‑auth has already been obtained, contact member services with the upcoming appointment details.*  
+
+*This information is not medical advice; your doctor can help with clinical decisions.*",answer_with_caveat,S5,"['S5', 'S4.3', 'S7', 'S1']",['S5'],True,True,True,Matches expected yes answer,True
+PQ05,M-1003,Does an MRI need prior authorization on my plan?,No,"No – the plan’s prior‑authorization list (CT scans, elective surgery, specialty drugs) does not include MRI scans, so an MRI does not require prior approval [S5].
+
+* If your provider still asks for authorization, you can confirm that it isn’t required under your plan.  
+* If you have any doubt, you may contact member services with the procedure code for clarification.
+
+*This answer depends on the information we have; your doctor can help with clinical decisions.*",answer_with_caveat,S5,"['S5', 'S4.3', 'S7', 'S1']",['S5'],True,True,True,The assistant correctly states that an MRI does not require prior authorization.,True
+PQ06,M-1002,Can I get dental treatment covered right after I enrolled?,"No, there is a 6-month waiting period","- The plan has a **6‑month waiting period** for dental coverage.  
+- Until that period passes, dental services are **not covered** (except routine check‑ups after the waiting period).  
+- After 6 months you’ll receive:  
+  • 100 % coverage for routine check‑ups.  
+  • 80 % coverage for other dental work (crowns, bridges, dentures, etc.) up to €1,000 per calendar year.  
+
+So right after enrollment you would need to pay the full cost yourself.  
+
+*This answer depends on the waiting‑period rule; your dentist can confirm any exceptions.*",answer_with_caveat,S6,"['S7', 'S4.10', 'S4.7', 'S10']",[],False,False,True,Matches the key fact of a 6‑month waiting period.,True
+PQ07,M-1001,What is my out-of-pocket maximum?,"EUR 5000 per calendar year, premiums not included","Your plan’s out‑of‑pocket maximum is **EUR 5,000 per calendar year**. Once you have paid that amount in covered services (deductible, coinsurance, and any applicable copays), the plan will cover 100 % of further in‑network services for the rest of the year [S3].",answer,S3,"['S3', 'S1', 'S3.2', 'S4.2']",['S3'],True,True,False,Missing mention that premiums are not included,False
+PQ08,M-1002,How much of my deductible do I still have to pay?,EUR 350,You still have **€350** left to meet your annual deductible. [Fact: deductible_remaining_eur = 350],answer,S3,"['S1', 'S3.1', 'S3', 'S7']",[],True,False,True,Matches the expected amount of EUR 350,True
+PQ09,M-1004,How much of my deductible do I still have to pay?,EUR 0 (deductible already met),Your records show that you have already met your full annual deductible. You owe **€0** more toward the deductible this calendar year. [ S1 – definition of deductible; facts show deductible_met = €1500 and deductible_remaining = €0 ],answer,S3,"['S1', 'S3.1', 'S3', 'S7']",['S1'],True,False,True,Matches the expected deductible amount of €0,True
+PQ10,M-1005,How much of my deductible do I still have to pay?,Cannot be determined: no deductible progress is on file for this member,"I’m sorry—I don’t have a record of how much of your deductible you’ve already met.  
+
+- Your plan’s annual deductible is **EUR 800** [​S3​].  
+- Copays do not count toward that amount [​S1​].  
+- Because the system shows “deductible remaining UNKNOWN,” we can’t tell how much you still owe.
+
+You can check your member portal or call Member Services with your member ID to get the exact remaining balance.",answer,S3,"['S1', 'S3.1', 'S3', 'S7']","['S3', 'S1']",True,True,True,The assistant correctly states that the deductible amount cannot be determined.,True
+PQ11,M-1001,Are brand-name drugs covered if a generic exists?,Only with the generic's cost sharing: you pay the full price difference on top of the generic copay,"- Brand‑name drugs are **only covered when no generic equivalent exists**.  
+- If a generic is available and you still want the brand‑name version, you must pay the **full price difference** plus the **generic copay of €10**. [S7]  
+- Generic drugs themselves have a €10 copay; brand‑name drugs on the formulary normally have a €40 copay, but that only applies when no generic is available. [S4.5]
+
+*Note: This is not medical advice; your doctor can help you choose the appropriate medication.*",answer_with_caveat,S7,"['S7', 'S4.5', 'S5', 'S1']","['S7', 'S4.5']",True,True,False,"The assistant states brand-name drugs are covered only when no generic exists, which contradicts the expected answer that they are covered only with the generic’s cost sharing.",True
+PQ12,M-1003,What is the emergency room copay?,EUR 75,"The emergency‑room visit copay is **EUR 75** per visit [​S4.4].  
+(If you are admitted directly from the ER, the copay is waived.)",answer,S4.4,"['S4.4', 'S4.3', 'S7', 'S4.2']",['S4.4'],True,True,True,matches expected amount,True
+PQ13,M-1002,How long do I have to appeal a denial?,60 days from the date on the denial letter,"You have **60 days** from the date on the denial letter to submit an appeal. Send it in writing, include your member ID, and attach any supporting documents. The plan will decide within 30 days, and if you’re still dissatisfied you can request an external review. [S9]",answer,S9,['S9'],['S9'],True,True,True,Matches key fact,True
+PQ14,M-1001,Is cosmetic surgery covered?,"No, cosmetic procedures without medical need are excluded","Cosmetic surgery that isn’t medically necessary is **not covered** under your NB‑BASIC plan. Only procedures that are required for a medical reason could be considered for coverage, and the plan would then apply the usual cost‑sharing (deductible, copay, coinsurance) [**S7**].
+
+* If you have a medical indication, you’ll need documentation from your doctor and the procedure must be performed by an **in‑network** provider to receive any coverage.  
+* Out‑of‑network cosmetic work would be treated as a non‑covered service, and you would be responsible for the full cost.
+
+**Caveat:** This answer depends on whether a medical need can be documented, which we don’t have information about.",answer_with_caveat,S7,"['S7', 'S4.3', 'S5', 'S1']",['S7'],True,True,True,Matches key fact that cosmetic surgery without medical need is not covered.,True
+PQ15,M-1004,"If I am taken to an out-of-network hospital in an emergency, what must I do to get in-network rates?",Notify the plan within 48 hours of admission,"- **Notify the plan within 48 hours of admission** to the out‑of‑network hospital. If you do this, the emergency care will be billed at the in‑network rate; otherwise the higher out‑of‑network cost‑sharing applies. [S7]  
+- The emergency‑room visit carries a **€150 copay** (waived if you are admitted directly to the hospital). [S4.4]  
+- After the emergency, any additional services will follow the normal cost‑sharing rules (20 % coinsurance in‑network, 50 % out‑of‑network). [S3]  
+
+If you miss the 48‑hour notification window, expect the out‑of‑network charges and consider contacting member services with the claim details.",answer,S7,"['S7', 'S4.4', 'S4.3', 'S3']","['S7', 'S4.4', 'S3']",True,True,True,Matches key fact and adds extra helpful info,True
+PQ16,M-1002,Which plan year does my deductible reset in?,It resets each calendar year (1 January),Your deductible is an **annual** amount that resets at the start of each **calendar year** – January 1 to December 31. So it will reset on January 1 of the next year. [S1],answer,S1,"['S1', 'S3', 'S3.1', 'S7']",['S1'],True,True,True,Matches the key fact that the deductible resets each calendar year on January 1.,True

@@ -1,0 +1,17 @@
+{
+  "doc_id": "D01",
+  "member_id": "M-1001",
+  "type": "EOB",
+  "provider": "Dr. Anna Berger",
+  "service": "GP consultation",
+  "service_date": "2026-08-04",
+  "billing_code": "NHC-1001",
+  "claim_number": "CL-70101",
+  "billed": 108.0,
+  "allowed": 80.0,
+  "deductible_applied": 0.0,
+  "patient_owes": 25.0,
+  "network_status": "in-network",
+  "plan_paid": 55.0,
+  "text": "EXPLANATION OF BENEFITS (this is not a bill)\nNordlicht Health | Claim CL-70101\nMember: Katrin Albrecht, born 1988-04-12, Member ID M-1001\nAddress: Lindenstrasse 14, 20095 Hamburg\n\nProvider: Dr. Anna Berger (in-network)\nService date: 2026-08-04\nService: GP consultation (NHC-1001)\nAmount billed: EUR 108.00\nAllowed amount: EUR 80.00\nApplied to deductible: EUR 0.00\nPlan paid: EUR 55.00\nYou may owe the provider: EUR 25.00"
+}

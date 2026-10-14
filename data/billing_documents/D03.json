@@ -1,0 +1,17 @@
+{
+  "doc_id": "D03",
+  "member_id": "M-1004",
+  "type": "EOB",
+  "provider": "Nordstadt Radiology",
+  "service": "MRI scan",
+  "service_date": "2026-08-19",
+  "billing_code": "NHC-4412",
+  "claim_number": "CL-70103",
+  "billed": 648.0,
+  "allowed": 480.0,
+  "deductible_applied": 0.0,
+  "patient_owes": 96.0,
+  "network_status": "in-network",
+  "plan_paid": 384.0,
+  "text": "EXPLANATION OF BENEFITS (this is not a bill)\nNordlicht Health | Claim CL-70103\nMember: Henrik Voss, born 1965-02-18, Member ID M-1004\nAddress: Birkenallee 7, 21029 Hamburg\n\nProvider: Nordstadt Radiology (in-network)\nService date: 2026-08-19\nService: MRI scan (NHC-4412)\nAmount billed: EUR 648.00\nAllowed amount: EUR 480.00\nApplied to deductible: EUR 0.00\nPlan paid: EUR 384.00\nYou may owe the provider: EUR 96.00"
+}

@@ -1,0 +1,17 @@
+{
+  "doc_id": "D05",
+  "member_id": "M-1004",
+  "type": "EOB",
+  "provider": "Physio Mitte",
+  "service": "Physiotherapy session",
+  "service_date": "2026-08-26",
+  "billing_code": "NHC-5120",
+  "claim_number": "CL-70105",
+  "billed": 94.5,
+  "allowed": 70.0,
+  "deductible_applied": 0.0,
+  "patient_owes": 14.0,
+  "network_status": "in-network",
+  "plan_paid": 56.0,
+  "text": "EXPLANATION OF BENEFITS (this is not a bill)\nNordlicht Health | Claim CL-70105\nMember: Henrik Voss, born 1965-02-18, Member ID M-1004\nAddress: Birkenallee 7, 21029 Hamburg\n\nProvider: Physio Mitte (in-network)\nService date: 2026-08-26\nService: Physiotherapy session (NHC-5120)\nAmount billed: EUR 94.50\nAllowed amount: EUR 70.00\nApplied to deductible: EUR 0.00\nPlan paid: EUR 56.00\nYou may owe the provider: EUR 14.00"
+}

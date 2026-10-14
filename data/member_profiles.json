@@ -1,0 +1,140 @@
+[
+  {
+    "member_id": "M-1001",
+    "plan_id": "NB-BASIC",
+    "name": "Katrin Albrecht",
+    "date_of_birth": "1988-04-12",
+    "address": "Lindenstrasse 14, 20095 Hamburg",
+    "coverage_start": "2025-01-01",
+    "deductible_total": 1500,
+    "deductible_met": 300,
+    "in_network_providers": [
+      "Dr. Anna Berger",
+      "Praxis Elbe Orthopaedics",
+      "Nordstadt Radiology",
+      "City Hospital Lindenhof",
+      "Physio Mitte",
+      "LabNord Diagnostics"
+    ],
+    "upcoming_appointments": [
+      {
+        "scenario_id": "S01",
+        "description": "GP annual check-up"
+      },
+      {
+        "scenario_id": "S05",
+        "description": "Dermatology consultation with Dr. Mei Tan"
+      }
+    ]
+  },
+  {
+    "member_id": "M-1002",
+    "plan_id": "NP-PLUS",
+    "name": "Daniel Okoro",
+    "date_of_birth": "1979-11-03",
+    "address": "Marktweg 3, 22761 Hamburg",
+    "coverage_start": "2025-01-01",
+    "deductible_total": 800,
+    "deductible_met": 450,
+    "in_network_providers": [
+      "Dr. Anna Berger",
+      "Praxis Elbe Orthopaedics",
+      "Nordstadt Radiology",
+      "City Hospital Lindenhof",
+      "Dr. Karim Haddad",
+      "Physio Mitte",
+      "Dr. Mei Tan",
+      "LabNord Diagnostics"
+    ],
+    "upcoming_appointments": [
+      {
+        "scenario_id": "S02",
+        "description": "Cardiology consultation with Dr. Karim Haddad"
+      },
+      {
+        "scenario_id": "S06",
+        "description": "First dental check-up"
+      }
+    ]
+  },
+  {
+    "member_id": "M-1003",
+    "plan_id": "NX-PREMIUM",
+    "name": "Sofia Marin",
+    "date_of_birth": "1992-07-25",
+    "address": "Elbchaussee 88, 22605 Hamburg",
+    "coverage_start": "2025-01-01",
+    "deductible_total": 250,
+    "deductible_met": 250,
+    "in_network_providers": [
+      "Dr. Anna Berger",
+      "Praxis Elbe Orthopaedics",
+      "Nordstadt Radiology",
+      "City Hospital Lindenhof",
+      "Dr. Karim Haddad",
+      "Physio Mitte",
+      "Dr. Mei Tan",
+      "LabNord Diagnostics"
+    ],
+    "upcoming_appointments": [
+      {
+        "scenario_id": "S03",
+        "description": "MRI scan of the knee at Nordstadt Radiology"
+      },
+      {
+        "scenario_id": "S08",
+        "description": "First psychotherapy session"
+      }
+    ]
+  },
+  {
+    "member_id": "M-1004",
+    "plan_id": "NB-BASIC",
+    "name": "Henrik Voss",
+    "date_of_birth": "1965-02-18",
+    "address": "Birkenallee 7, 21029 Hamburg",
+    "coverage_start": "2025-01-01",
+    "deductible_total": 1500,
+    "deductible_met": 1500,
+    "in_network_providers": [
+      "Dr. Anna Berger",
+      "Praxis Elbe Orthopaedics",
+      "Nordstadt Radiology",
+      "City Hospital Lindenhof",
+      "Physio Mitte",
+      "LabNord Diagnostics"
+    ],
+    "upcoming_appointments": [
+      {
+        "scenario_id": "S04",
+        "description": "A course of physiotherapy sessions at Physio Mitte"
+      }
+    ]
+  },
+  {
+    "member_id": "M-1005",
+    "plan_id": "NP-PLUS",
+    "name": "Leila Haddad-Brandt",
+    "date_of_birth": "1984-09-30",
+    "address": "Rosenhof 21, 20253 Hamburg",
+    "coverage_start": "2026-03-01",
+    "deductible_total": 800,
+    "deductible_met": null,
+    "in_network_providers": [
+      "Dr. Anna Berger",
+      "Praxis Elbe Orthopaedics",
+      "Nordstadt Radiology",
+      "City Hospital Lindenhof",
+      "Dr. Karim Haddad",
+      "Physio Mitte",
+      "Dr. Mei Tan",
+      "LabNord Diagnostics"
+    ],
+    "upcoming_appointments": [
+      {
+        "scenario_id": "S07",
+        "description": "Consultation about elective knee surgery"
+      }
+    ]
+  }
+]

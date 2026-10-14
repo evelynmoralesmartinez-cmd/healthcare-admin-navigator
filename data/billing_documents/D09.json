@@ -1,0 +1,17 @@
+{
+  "doc_id": "D09",
+  "member_id": "M-1002",
+  "type": "EOB",
+  "provider": "Praxis Elbe Orthopaedics",
+  "service": "Specialist consultation",
+  "service_date": "2026-09-11",
+  "billing_code": "NHC-2002",
+  "claim_number": "CL-70109",
+  "billed": 216.0,
+  "allowed": 160.0,
+  "deductible_applied": 0.0,
+  "patient_owes": 40.0,
+  "network_status": "in-network",
+  "plan_paid": 120.0,
+  "text": "EXPLANATION OF BENEFITS (this is not a bill)\nNordlicht Health | Claim CL-70109\nMember: Daniel Okoro, born 1979-11-03, Member ID M-1002\nAddress: Marktweg 3, 22761 Hamburg\n\nProvider: Praxis Elbe Orthopaedics (in-network)\nService date: 2026-09-11\nService: Specialist consultation (NHC-2002)\nAmount billed: EUR 216.00\nAllowed amount: EUR 160.00\nApplied to deductible: EUR 0.00\nPlan paid: EUR 120.00\nYou may owe the provider: EUR 40.00"
+}
