@@ -3,3 +3,8 @@
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+
+# Private presentation prep (not shared)
+presentation/healthcare_admin_navigator_slides.pptx
+presentation/presentation_script.md
+presentation/qa_cheat_sheet.md

@@ -119,6 +119,8 @@ healthcare-admin-navigator/
 ├── 02_build_and_evaluate.ipynb   # smoke test, evaluations, simulated user test
 ├── navigator.py                  # the assistant
 ├── evaluate.py                   # evaluation scripts
+├── app.py                        # Streamlit demo app
+├── presentation/                 # slides (PDF and PPTX)
 ├── results/                      # saved evaluation results
 ├── requirements.txt
 └── .gitignore                    # excludes .env and .venv
@@ -140,7 +142,11 @@ healthcare-admin-navigator/
    ```
 3. Open the notebooks in order: `01_eda.ipynb` (no API calls) and `02_build_and_evaluate.ipynb`.
    **Note:** running all of notebook 02 makes about 80 LLM calls and takes around 20 minutes on the free tier.
-4. Try the assistant in a notebook cell:
+4. Run the demo app (a chat in the browser, on your own computer):
+   ```bash
+   streamlit run app.py
+   ```
+5. Or try the assistant in a notebook cell:
    ```python
    import navigator as nv
    nv.show(nv.respond("Does my plan cover physiotherapy?", member_id="M-1002"))

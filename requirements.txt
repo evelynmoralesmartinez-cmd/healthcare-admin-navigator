@@ -2,3 +2,4 @@ pandas
 groq
 python-dotenv
 ipykernel
+streamlit
